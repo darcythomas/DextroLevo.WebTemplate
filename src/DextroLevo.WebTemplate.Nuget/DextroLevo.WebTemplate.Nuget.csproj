@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>0.0.1</PackageVersion>
+    <PackageVersion>1.0.1-beta2</PackageVersion>
     <PackageId>DextroLevo.Utility.WebTemplate</PackageId>
     <Title>DextroLevo.Utility.WebTemplate</Title>
     <Authors>Darcy Thomas (darcyio)</Authors>
-    <Description>donet new template to to create the skeleton projects of a whole ASP.Net web solution.</Description>
+    <Description>donet new template to to create the skeleton projects for an ASP.Net web solution.</Description>
     <PackageTags>dotnet-new;templates;dextrolevo</PackageTags>
-    <license >Apache-2.0</license>
-    <ProjectUrl>https://github.com/darcythomas/DextroLevo.WebTemplate</ProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/darcythomas/DextroLevo.WebTemplate</PackageProjectUrl>
     <Repository>https://github.com/darcythomas/DextroLevo.WebTemplate</Repository>
 
     <TargetFramework>netstandard2.0</TargetFramework>
