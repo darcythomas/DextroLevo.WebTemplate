@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DextroLevo.Template.Database
+namespace DextroLevo.Template.Services.Common
 {
     public class Class1
     {

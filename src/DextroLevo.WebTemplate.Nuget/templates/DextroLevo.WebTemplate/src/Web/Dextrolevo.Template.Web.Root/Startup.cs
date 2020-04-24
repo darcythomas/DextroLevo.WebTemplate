@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Dextrolevo.Template.Web
+namespace DextroLevo.Template.Web.Root
 {
     public class Startup
     {

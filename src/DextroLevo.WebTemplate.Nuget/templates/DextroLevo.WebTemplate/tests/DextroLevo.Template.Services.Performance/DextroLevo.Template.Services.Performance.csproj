@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Services\DextroLevo.Template.Services.Alpha\DextroLevo.Template.Services.Alpha.csproj" />
+    <ProjectReference Include="..\..\src\Services\DextroLevo.Template.Services.Bravo\DextroLevo.Template.Services.Bravo.csproj" />
+  </ItemGroup>
+
 </Project>

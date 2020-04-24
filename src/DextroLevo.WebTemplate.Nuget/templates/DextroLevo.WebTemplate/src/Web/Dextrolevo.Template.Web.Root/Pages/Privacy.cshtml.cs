@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Dextrolevo.Template.Web.Pages
+namespace DextroLevo.Template.Web.Root.Pages
 {
     public class PrivacyModel : PageModel
     {

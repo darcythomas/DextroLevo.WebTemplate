@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Services\DextroLevo.Template.Services.Alpha\DextroLevo.Template.Services.Alpha.csproj" />
     <ProjectReference Include="..\..\Services\DextroLevo.Template.Services.Bravo\DextroLevo.Template.Services.Bravo.csproj" />
+    <ProjectReference Include="..\DextroLevo.Template.Database.Entities\DextroLevo.Template.Database.Entities.csproj" />
   </ItemGroup>
 
 </Project>

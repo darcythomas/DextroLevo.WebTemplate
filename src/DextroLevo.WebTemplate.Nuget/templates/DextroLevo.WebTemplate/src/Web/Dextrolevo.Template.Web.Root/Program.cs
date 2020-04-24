@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Dextrolevo.Template.Web
+namespace DextroLevo.Template.Web.Root
 {
     public class Program
     {

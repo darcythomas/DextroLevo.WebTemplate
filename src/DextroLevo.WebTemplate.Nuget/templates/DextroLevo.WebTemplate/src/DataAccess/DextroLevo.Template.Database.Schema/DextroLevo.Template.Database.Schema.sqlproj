@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>DextroLevo.Template.DatabaseSchema</Name>
+    <Name>DextroLevo.Template.Database.Schema</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{d0b6c738-98e1-433f-89c2-c40ee98c72a4}</ProjectGuid>
@@ -11,8 +11,8 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>DextroLevo.Template.DatabaseSchema</RootNamespace>
-    <AssemblyName>DextroLevo.Template.DatabaseSchema</AssemblyName>
+    <RootNamespace>DextroLevo.Template.Database.Schema</RootNamespace>
+    <AssemblyName>DextroLevo.Template.Database.Schema</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
