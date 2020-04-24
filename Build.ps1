@@ -2,16 +2,19 @@
 try {
     Push-Location
 
-    cd $PSScriptRoot
+    Write-Host $PSScriptRoot
+    Set-Location $PSScriptRoot
 
-    cd ./src/DextroLevo.WebTemplate.Nuget
+    Set-Location ./src/DextroLevo.WebTemplate.Nuget
 
-    dotnet pack 
+    Remove-Item ($PSScriptRoot + '/artifacts/*.*') -Recurse | Where-Object { ! $_.PSIsContainer }
+
+    dotnet pack -o ($PSScriptRoot + '/artifacts') -c Release
 
     Write-Host "Boom! There I built all the things"
 }
 catch {
-    Write-Host "Bad things, sorry"
+    Write-Host "Bad things, sorry" + $_
 }
 finally {
     Pop-Location
